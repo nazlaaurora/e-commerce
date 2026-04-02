@@ -1,0 +1,126 @@
+body{
+    height: 50px;
+    background-color: aliceblue;
+}
+.aksesoris img{
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.navbar{
+    background-color: bisque;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50 px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.navmenu{
+    list-style: none;
+    gap: 15px;
+    display: flex;
+}
+.navmenu li{
+    kursor:pointer
+}
+.navmenu a{
+    transition: 0.3s;
+    color: black;
+}
+.collection{
+    text-align: center;
+}
+.collection h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.product{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+.aksesoris{
+    background-color: bisque;
+    padding: 80px;
+    border-radius: 15px;
+}
+.aksesoris h2{
+    text-align: center;
+    font-size: 50px;
+}
+.cart h1{
+    text-align: center;
+}
+.containers h1{
+    text-align: center;
+}
+.cart-saya{
+    justify-content: center;
+    color: green;
+    list-style: none;
+}
+.cart-saya li{
+    padding: 10px;
+    border-bottom: 1px #ddd;
+}
+.cart{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 80px;
+    list-style: none;
+}
+.cart-button hapus{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    background-color: aliceblue;
+    gap: 10px;
+}
+.cart-button beli{
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    background-color: blanchedalmond;
+    gap: 10px;
+}
+.containers{
+    background-color: bisque;
+    border-radius: 15px;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.hapus,.beli{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:blue;
+    cursor:pointer;
+}
+.beli{
+    background-color: aquamarine;
+}
+.hapus{
+    background-color: red;
+}
+.cart-button{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.pembayaran{
+    background-color: burlywood;
+    border-radius: 15px;
+    max-width: 500px;
+    justify-content: center;
+    text-align: center;
+}
+.list-product{
+    list-style: none;
+}
